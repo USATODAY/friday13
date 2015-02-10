@@ -1,0 +1,278 @@
+.data-sub {
+  display: none;
+  font-family: "Futura Today Light", Arial,sans-serif;
+}
+
+.data-head {
+  color: #fff;
+  display: none;
+  font-family: "Futura Today", Arial,sans-serif;
+  font-size: 1.1em;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+
+.data-list {
+  list-style: none;
+  margin: 0.5em;
+  padding: 0;
+}
+
+.panel-data {
+  display: block;
+  height: auto;
+  padding: 1em 0;
+  position: relative;
+  &.hidden {
+    display: none;
+  }
+}
+
+.panel-wrap {
+  color: $dark-grey;
+  position: relative;
+}
+
+.data-wrap {
+  padding:1em;
+   @extend .group;
+}
+
+.county-item {
+  color: $blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.data-section {
+  display: block;
+  float: none;
+ 
+  @media (min-width: 600px) {
+    float: left;
+    display: inline-block;
+    width: 50%;
+  }
+}
+.chart-title {
+  font-family: "Futura Today", Arial,sans-serif;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+.panel-info {
+  text-align: center;
+}
+.bar-chart-box {
+  height: 135px;
+  position: relative;
+  width: 100%
+}
+.bar-box {
+  bottom: 0px;
+  left: 4%;
+  position: absolute;
+  width: 14%;
+}
+.bar-box.mid {
+  left: 43%;
+}
+.bar-box.right {
+  left: 82%;
+}
+.pie-box.mid {
+  left: 40%;
+}
+.pie-box.right {
+  left: 79%;
+}
+.bar {
+    background: #1b9cfa;
+  height: 0px;
+}
+.bar-text {
+  font-family: "Futura Today Light", Arial,sans-serif;
+  text-align: center;
+}
+.bar-label {
+  font-family: "Futura Today", Arial,sans-serif;
+  text-align: center;
+}
+.bar.hide {
+  display: none;
+}
+.race-label {
+  font-family: "Futura Today", Arial,sans-serif;
+  margin-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.pie-box {
+  display: inline-block;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 10%
+}
+.pie-box.hide {
+  display: none;
+}
+.data-block {
+  display: inline-block;
+  width: 20%;
+}
+.data-block.left {
+  margin-left: 2.5%
+}
+.data-block.right {
+  margin-right: 2.5%
+}
+.data-text {
+  font-family: "Futura Today", Arial,sans-serif;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.data-number {
+    font-size: 2.0em;
+}
+.data-container {
+  text-align: center;
+  width: 100%;
+}
+.data-table {
+  color: #fff;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3.2em;
+  width: 90%;
+}
+.data-table td {
+  border-top: #fff dotted 1px;
+  font-size: 0.7em;
+  padding: 1.0%;
+  width: 34%;
+}
+html.touch .data-table td {
+  padding: 1.0% 1.0% 1.8% 1.0%;
+}
+.data-table td.vax-label {
+  font-family: "Futura Today", Arial,sans-serif;
+  width: 54%;
+}
+.data-table td.vax-label.red {
+  color: #ff7163;
+}
+.panel-container {
+  background: none;
+  height: 100%;
+  position: relative;
+  width: 1500%
+}
+.panel-section {
+  background: none;
+  color: #fff;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.intro-button, .draw-card {
+  background: $blue;
+  border: #fff solid 5px;
+  border-radius: 0.5em;
+  bottom: 1em;
+  cursor: pointer;
+  display: none;
+  font-size: 1.5em;
+  left: 40%;
+  padding: 1%;
+  position: absolute;
+  text-transform: uppercase;
+}
+.instructions {
+  background: none;
+  font-family: "Futura Today", Arial,sans-serif;
+  margin-left: 40%;
+  margin-top: 2em;
+  width: 55%;
+}
+html.vert .instructions {
+  margin-top: 0em;
+}
+.user-icon {
+  background: none;
+  color: #000;
+  font-size: 2em;
+  position: absolute;
+  left: 29.8%;
+  top: 17.6%;
+}
+html.vert .user-icon {
+  left: 8.5%;
+  top: 24%;
+}
+html.vert .intro-button, html.vert .draw-card {
+  bottom: 3.5em;
+  left: 28%;
+}
+.start {
+  background: none;
+  display: none;
+}
+.start.show {
+  display: block;
+}
+.intro-button.show {
+  display: block;
+}
+.draw-card.show {
+  display: block;
+}
+.instructions.hide {
+  display: none;
+}
+.card-color {
+  background: #ff0000;
+  border: #fff solid 5px;
+  border-radius: 1em;
+  display: none;
+  height: 6em;
+  margin-left: 55%;
+  margin-top: 5em;
+  width: 6em;
+}
+html.vert .card-color {
+  margin-top: 2em;
+}
+.card-color.show {
+  display: block;
+}
+.board {
+  height: 100%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+.board-image {
+  position: relative;
+  height: 100%;
+  margin: auto;
+  width: auto;
+}
+html.vert .board-image {
+  height: auto;
+  width: 100%;
+}
+.board-image img {
+  height: 100%;
+  width: auto;
+}
+html.vert .board-image img {
+  height: auto;
+  width: 100%;
+}
+html.vert .board {
+  height: auto;
+  width: 100%;
+}
