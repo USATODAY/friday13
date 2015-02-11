@@ -27,19 +27,20 @@ mobile.arrQuestions = [
 mobile.arrColors = ["#E62319", "#AD2CA5", "#0A80F9", "#FCC92E", "#00D03D"];
 
 mobile.arrSpaceCoordinate = [
-    [23.8, 10.3],
-    [31.4, 10.3],
-    [31.4, 24.9],
-    [31.4, 39.5],
-    [31.4, 54.1],
-    [31.4, 68.7],
-    [40.2, 68.7],
-    [48.8, 68.7],
-    [57.4, 68.7],
-    [57.4, 54.1],
-    [57.4, 66.1],
-    [57.4, 73.8],
-    [57.4, 83.3]
+    [8.8, 17.6],
+    [19.8, 17.6],
+    [28.7, 17.6],
+    [28.7, 30.8],
+    [28.7, 44.1],
+    [28.7, 57.4],
+    [28.7, 70.7],
+    [38.8, 70.7],
+    [48.8, 70.7],
+    [58.9, 70.7],
+    [58.9, 57.4],
+    [69, 57.4],
+    [78, 57.4],
+    [89, 57.4]
 ];
 
 mobile.currentSpot = 0;
@@ -53,7 +54,7 @@ mobile.setUpPanels = function() {
     //var numWidth = mobile.mainWrapper.width();
     var numWidth, numHeight;
     numWidth = window.innerWidth; //mobile.boardImage.eq(0).width();
-    numHeight = window.innerHeight; //mobile.boardImage.eq(0).height();
+    numHeight = window.innerHeight - 47; //mobile.boardImage.eq(0).height();
     console.log(numHeight);
     if (numHeight > numWidth) {
         mobile.boardImage.eq(0).width(numWidth);
@@ -119,9 +120,9 @@ mobile.renderSpace = function() {
         }
     });
     if (numNewSpot === 0) {
-        numNewSpot = 12;
+        numNewSpot = 13;
     }
-
+    console.log(numNewSpot);
 };
 
 $(document).ready(function () {

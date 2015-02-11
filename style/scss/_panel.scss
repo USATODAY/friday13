@@ -162,17 +162,11 @@ html.touch .data-table td {
 .data-table td.vax-label.red {
   color: #ff7163;
 }
-.panel-container {
-  background: none;
-  height: 100%;
-  position: relative;
-  width: 1500%
-}
+
 .panel-section {
   background: none;
   color: #fff;
   height: 100%;
-  position: absolute;
   text-align: center;
   width: 100%;
 }
@@ -180,14 +174,14 @@ html.touch .data-table td {
   background: $blue;
   border: #fff solid 5px;
   border-radius: 0.5em;
-  bottom: 1em;
   cursor: pointer;
   display: none;
   font-size: 1.5em;
-  left: 40%;
+  left: 50%;
   padding: 1%;
   position: absolute;
   text-transform: uppercase;
+  top: 6em;
 }
 .instructions {
   background: none;
@@ -201,11 +195,10 @@ html.vert .instructions {
 }
 .user-icon {
   background: none;
-  color: #000;
-  font-size: 2em;
   position: absolute;
-  left: 29.8%;
+  left: 8.8%;
   top: 17.6%;
+  width: 2.8%;
 }
 html.vert .user-icon {
   left: 8.5%;
@@ -238,7 +231,7 @@ html.vert .intro-button, html.vert .draw-card {
   display: none;
   height: 6em;
   margin-left: 55%;
-  margin-top: 5em;
+  margin-top: 2em;
   width: 6em;
 }
 html.vert .card-color {
@@ -248,7 +241,7 @@ html.vert .card-color {
   display: block;
 }
 .board {
-  height: 100%;
+  height: calc(100% - 47px);
   margin: auto;
   position: relative;
   text-align: center;
@@ -275,4 +268,7 @@ html.vert .board-image img {
 html.vert .board {
   height: auto;
   width: 100%;
+}
+.player-icon {
+  width: 100% !important;
 }

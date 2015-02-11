@@ -1,7 +1,5 @@
 .wrap.mobile-wrap{
   background: none;
-  bottom: auto;
-  height: auto;
   margin: 0 auto;
   max-width: 800px;
   min-height: 100%;
@@ -10,6 +8,7 @@
   overflow: hidden;
   padding: 0;
   position: absolute;
+  top: 0px;
   width: 100%;
 
 
