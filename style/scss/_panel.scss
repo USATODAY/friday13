@@ -195,10 +195,14 @@ html.vert .instructions {
 }
 .user-icon {
   background: none;
+  display: none;
   position: absolute;
   left: 8.8%;
   top: 17.6%;
   width: 2.8%;
+}
+.user-icon.show {
+  display: block;
 }
 html.vert .user-icon {
   left: 8.5%;
@@ -271,4 +275,23 @@ html.vert .board {
 }
 .player-icon {
   width: 100% !important;
+}
+.question-panel {
+  display: none;
+  position: absolute;
+}
+.question-text {
+
+}
+.question-icon {
+
+}
+.question-answer-box {
+    width: 100%;
+}
+.question-answers {
+  background: $blue;
+  border: #fff solid 5px;
+  border-radius: 0.5em;
+  cursor: pointer;
 }

@@ -1,11 +1,11 @@
 var mobile = mobile || {};
 
 mobile.arrColorSpaces = [
-    [0, 7], //red
-    [1, 5, 8], //purple
-    [2, 9], //blue
-    [3, 6, 10], //yellow
-    [4, 11] //green
+    [1, 8], //red
+    [2, 6, 9], //purple
+    [3, 10], //blue
+    [4, 7, 11], //yellow
+    [5, 12] //green
 ];
 
 mobile.arrQuestions = [
@@ -55,7 +55,6 @@ mobile.setUpPanels = function() {
     var numWidth, numHeight;
     numWidth = window.innerWidth; //mobile.boardImage.eq(0).width();
     numHeight = window.innerHeight - 47; //mobile.boardImage.eq(0).height();
-    console.log(numHeight);
     if (numHeight > numWidth) {
         mobile.boardImage.eq(0).width(numWidth);
         mobile.htmlElement.addClass("vert");
@@ -109,20 +108,42 @@ mobile.addEventListeners = function() {
 
 mobile.renderSpace = function() {
     mobile.numColor = mobile.randomNumber(0, 4);
-    var numNewSpot = 0;
+    mobile.numNewSpot = 0;
     mobile.instructions.addClass("hide");
     mobile.cardColor.css({"background": mobile.arrColors[mobile.numColor]});
     mobile.cardColor.addClass("show");
     jQuery.each(mobile.arrColorSpaces[mobile.numColor], function(index){
-        if (mobile.currentSpot <= mobile.arrColorSpaces[mobile.numColor][index]) {
-            numNewSpot = mobile.arrColorSpaces[mobile.numColor][index];
+        if (mobile.currentSpot < mobile.arrColorSpaces[mobile.numColor][index]) {
+            mobile.numNewSpot = mobile.arrColorSpaces[mobile.numColor][index];
             return false;
         }
     });
-    if (numNewSpot === 0) {
-        numNewSpot = 13;
+    if (mobile.numNewSpot === 0) {
+        mobile.numNewSpot = 13;
     }
-    console.log(numNewSpot);
+    mobile.blnForward = true;
+    mobile.animateIcon(mobile.currentSpot + 1);
+};
+
+mobile.animateIcon = function(numNextStep) {
+    mobile.userIcon.animate({"left": mobile.arrSpaceCoordinate[numNextStep][0].toString() + "%", "top": mobile.arrSpaceCoordinate[numNextStep][1].toString() + "%"}, {duration: 300, done: function() {
+        if (mobile.blnForward) {
+            if (numNextStep < mobile.numNewSpot) {
+                mobile.animateIcon(numNextStep + 1);
+            } else {
+                mobile.renderQuestion(mobile.numNewSpot);
+            }
+        } else {
+            if (numNextStep > mobile.numNewSpot) {
+                mobile.animateIcon(numNextStep - 1);
+            }
+        }
+    }});
+};
+
+mobile.renderQuestion = function(numNewSpot) {
+    mobile.currentSpot = numNewSpot;
+    console.log(mobile.currentSpot);
 };
 
 $(document).ready(function () {
@@ -147,6 +168,7 @@ $(document).ready(function () {
     mobile.cardColor = jQuery(".card-color");
     mobile.boardImageBox = jQuery(".board-image");
     mobile.boardImage = mobile.boardImageBox.find("img");
+    mobile.userIcon = jQuery(".user-icon");
 
     mobile.setUpPanels();
 

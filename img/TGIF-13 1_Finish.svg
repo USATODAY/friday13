@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 869.6 654.1" enable-background="new 0 0 869.6 654.1" xml:space="preserve">
+<g id="color_dots">
+</g>
+<g id="pointer_box">
+</g>
+<g id="Banner_colors">
+</g>
+<g id="Squares">
+	<text transform="matrix(-1 0 0 1 626.7363 349.2027)" fill="#FFFFFF" font-family="'FuturaTodayT02-Bold'" font-size="64.5585">YOu did it!</text>
+	<g>
+		<defs>
+			<rect id="SVGID_63_" x="10.3" y="127.6" width="356" height="397.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_63_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="-53.3" y="154.4" clip-path="url(#SVGID_2_)" fill="#00D03D" stroke="#FFFFFF" stroke-width="14" stroke-miterlimit="10" width="336.5" height="336.5"/>
+		<g clip-path="url(#SVGID_2_)">
+			<circle opacity="0.5" fill="#FFFFFF" cx="46.7" cy="323.5" r="144.5"/>
+			<circle fill="#FFFFFF" cx="46.7" cy="323.5" r="124.9"/>
+		</g>
+	</g>
+	<circle fill="#1B9CFA" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" cx="454" cy="318.3" r="240.2"/>
+	<g>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M266.1,284.6h49.1v18.7h-26.1V318h25.7v18.7h-25.7V365h-23V284.6
+			z"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M324.5,284.6h23V365h-23V284.6z"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M361.5,284.6h21l27,34c4.2,5.3,7.8,11.1,9.6,14.7l0.5-0.2
+			c-0.5-3.8-0.7-10.5-0.7-17.1v-31.4h21.7V365h-21l-27-34c-4.2-5.3-7.8-11.1-9.6-14.7l-0.5,0.2c0.5,3.8,0.7,10.5,0.7,17.1V365h-21.7
+			V284.6z"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M454.6,284.6h23V365h-23V284.6z"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M485.6,354.9l11.1-15.4c4.1,4.9,11,9.4,18.9,9.4
+			c6,0,9.5-2.5,9.5-7.2c0-5.6-5.2-7.2-13.9-9.9c-11.7-3.6-22-9.6-22-23.5c0-15.2,12.5-25.4,30.1-25.4c12.3,0,21.5,3.8,27.4,9.3
+			l-10.4,15.4c-3.3-3.8-8.9-7-15.8-7c-6,0-8.5,2.4-8.5,5.6c0,5,6.1,6.4,12.7,8.5c13.1,4.1,23.1,10.1,23.1,24.9
+			c0,15.5-11.1,27-31.2,27C502,366.6,490.5,360.3,485.6,354.9z"/>
+		<path fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" d="M557.7,284.6h23v30h28.9v-30h23V365h-23v-31.7h-28.9V365h-23
+			V284.6z"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_65_" x="-325.1" y="-7.5" width="249.7" height="669.4"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_65_"  overflow="visible"/>
+		</clipPath>
+		
+			<circle clip-path="url(#SVGID_4_)" fill="#1B9CFA" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" cx="37.2" cy="323.9" r="333.2"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M309.2,228.7l-14.8-25.8h4l12.5,22.3l12.6-22.3h3.9l-14.8,25.8v19.5h-3.5V228.7z"/>
+		<path fill="#FFFFFF" d="M328.9,225.5c0-13.4,9.7-23.6,23.3-23.6s23.3,10.1,23.3,23.6s-9.7,23.6-23.3,23.6S328.9,239,328.9,225.5z
+			 M372,225.5c0-11.6-8.2-20.3-19.8-20.3c-11.6,0-19.8,8.7-19.8,20.3s8.2,20.3,19.8,20.3C363.8,245.9,372,237.2,372,225.5z"/>
+		<path fill="#FFFFFF" d="M383.4,233v-30.1h3.5v29c0,9.1,4.6,14,12.7,14c8.1,0,12.7-4.9,12.7-14v-29h3.5V233c0,9.4-6,16.1-16.2,16.1
+			C389.4,249.1,383.4,242.3,383.4,233z"/>
+		<path fill="#FFFFFF" d="M440.2,202.9h11.2c13.8,0,23.4,8.1,23.4,22.7s-9.7,22.7-23.4,22.7h-11.2V202.9z M443.7,245h7.4
+			c11.6,0,20.3-6.3,20.3-19.4s-8.7-19.4-20.3-19.4h-7.4V245z"/>
+		<path fill="#FFFFFF" d="M483,202.9h3.5v45.3H483V202.9z"/>
+		<path fill="#FFFFFF" d="M497.6,202.9h11.2c13.8,0,23.4,8.1,23.4,22.7s-9.7,22.7-23.4,22.7h-11.2V202.9z M501.1,245h7.4
+			c11.6,0,20.3-6.3,20.3-19.4s-8.7-19.4-20.3-19.4h-7.4V245z"/>
+		<path fill="#FFFFFF" d="M554.1,202.9h3.5v45.3h-3.5V202.9z"/>
+		<path fill="#FFFFFF" d="M577.3,206.1h-13.7v-3.2h30.9v3.2h-13.7v42.1h-3.5V206.1z"/>
+		<path fill="#FFFFFF" d="M601.4,245.7c0-1.7,1.2-2.9,2.9-2.9s2.9,1.2,2.9,2.9c0,1.7-1.2,2.9-2.9,2.9S601.4,247.4,601.4,245.7z
+			 M602.7,224.4v-21.6h3.4v21.6l-0.6,12.7h-2.1L602.7,224.4z"/>
+	</g>
+	<rect x="3.8" y="5.4" fill="none" stroke="#231F20" stroke-width="10" stroke-miterlimit="10" width="860.8" height="645.3"/>
+	<rect x="3.8" y="5.4" fill="none" stroke="#231F20" stroke-width="10" stroke-miterlimit="10" width="860.8" height="645.3"/>
+</g>
+<g id="images">
+</g>
+</svg>
