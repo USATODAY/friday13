@@ -152,7 +152,10 @@ mobile.animateIcon = function(numNextStep) {
 
 mobile.renderQuestion = function(numNewSpot) {
     mobile.currentSpot = numNewSpot;
-    console.log(mobile.currentSpot);
+    mobile.questionText.html(mobile.arrQuestions[mobile.currentSpot - 1][0]);
+    mobile.questionIcon.html(mobile.arrQuestions[mobile.currentSpot - 1][1]);
+    mobile.startPanel.removeClass("show");
+    mobile.questionPanel.addClass("show");
 };
 
 $(document).ready(function () {
@@ -178,6 +181,9 @@ $(document).ready(function () {
     mobile.boardImageBox = jQuery(".board-image");
     mobile.boardImage = mobile.boardImageBox.find("img");
     mobile.userIcon = jQuery(".user-icon");
+    mobile.questionPanel = jQuery(".question-panel");
+    mobile.questionText = jQuery(".question-text");
+    mobile.questionIcon = jQuery(".question-icon");
 
     mobile.setUpPanels();
 

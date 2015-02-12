@@ -204,10 +204,6 @@ html.vert .instructions {
 .user-icon.show {
   display: block;
 }
-html.vert .user-icon {
-  left: 8.5%;
-  top: 24%;
-}
 html.vert .intro-button, html.vert .draw-card {
   bottom: 3.5em;
   left: 28%;
@@ -278,7 +274,13 @@ html.vert .board {
 }
 .question-panel {
   display: none;
+  left: 40%;
   position: absolute;
+  top: 2em;
+  width: 60%;
+}
+.question-panel.show {
+  display: block;
 }
 .question-text {
 
@@ -290,8 +292,15 @@ html.vert .board {
     width: 100%;
 }
 .question-answers {
+  margin-top: 2em;
+}
+.answer {
   background: $blue;
   border: #fff solid 5px;
   border-radius: 0.5em;
   cursor: pointer;
+  margin: 30% 2em;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-transform: uppercase;
 }
