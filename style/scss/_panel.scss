@@ -183,6 +183,19 @@ html.touch .data-table td {
   text-transform: uppercase;
   top: 6em;
 }
+.results-share {
+  background: $blue;
+  border: #fff solid 5px;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: none;
+  font-size: 1.5em;
+  left: 40%;
+  padding: 1%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 2.5em;
+}
 .instructions {
   background: none;
   font-family: "Futura Today", Arial,sans-serif;
@@ -191,7 +204,9 @@ html.touch .data-table td {
   width: 55%;
 }
 html.vert .instructions {
-  margin-top: 0em;
+  margin-top: 17em;
+  margin-left: 0%;
+  width: 100%;
 }
 .user-icon {
   background: none;
@@ -205,8 +220,12 @@ html.vert .instructions {
   display: block;
 }
 html.vert .intro-button, html.vert .draw-card {
-  bottom: 3.5em;
-  left: 28%;
+  left: 21%;
+  top: 9em;
+}
+html.vert .results-share {
+  left: 31%;
+  top: 3em;
 }
 .start {
   background: none;
@@ -219,6 +238,9 @@ html.vert .intro-button, html.vert .draw-card {
   display: block;
 }
 .draw-card.show {
+  display: block;
+}
+.results-share.show {
   display: block;
 }
 .instructions.hide {
@@ -235,7 +257,8 @@ html.vert .intro-button, html.vert .draw-card {
   width: 6em;
 }
 html.vert .card-color {
-  margin-top: 2em;
+  margin-left: 34%;
+  margin-top: 17em;
 }
 .card-color.show {
   display: block;
@@ -266,13 +289,14 @@ html.vert .board-image img {
   width: 100%;
 }
 html.vert .board {
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 .player-icon {
   width: 100% !important;
 }
 .question-panel {
+  background: none;
   display: none;
   left: 40%;
   position: absolute;
@@ -282,16 +306,37 @@ html.vert .board {
 .question-panel.show {
   display: block;
 }
+html.vert .question-panel {
+  left: 5%;
+  margin-top: 11.3em;
+  width: 90%;
+}
 .question-text {
-
+  background: none;
+  font-family: "Futura Today", Arial,sans-serif;
 }
 .question-icon {
-
+  background-size: cover !important;
+  display: table-cell;
+  float: left;
+  height: 4em;
+  margin-right: 0.5em;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 4em;
+}
+.question-icon img {
+  height: auto;
+  left: -1em;
+  position: absolute;
+  width: 6em;
 }
 .question-answer-box {
     width: 100%;
 }
 .question-answers {
+  background: none;
   margin-top: 2em;
 }
 .answer {
@@ -303,4 +348,26 @@ html.vert .board {
   padding: 0.5em 1em;
   text-align: center;
   text-transform: uppercase;
+}
+.results-panel {
+  background: none;
+  display: none;
+  left: 40%;
+  position: absolute;
+  top: 2em;
+  width: 60%;
+}
+.results-panel.show {
+  display: block;
+}
+.results-text {
+  background: none;
+}
+html.vert .results-panel {
+  left: 5%;
+  margin-top: 15em;
+  width: 90%;
+}
+.results-share {
+
 }

@@ -46,53 +46,52 @@
         <img src="img/tgif-13-bg.svg">
 
         <div class="user-icon"><img class="player-icon" src="img/pawn.svg"></div>
-        <div class="wrap mobile-wrap">
-            <div class="panel-section">
-                <div class="intro-button show">Play now!</div>
-                <div class="start">
-                    <div class="draw-card">Draw card!</div>
-                    <div class="instructions">Draw a card to see what color you land on and answer correctly to stay
-                        on
-                        current
-                        space. If you answer incorrectly, you will go back to previous space of same color or the
-                        beginning.
-                        Good luck!
-                    </div>
-                    <div class="card-color"></div>
-                </div>
-                <div class="question-panel">
-                    <div class="question-text"></div>
-                    <div class="question-icon"></div>
-                    <div class="question-answers"><span class="answer">True</span><span class="answer">False</span></div>
-                </div>
-            </div>
-
-        </div>
     </div>
-</div>
+    <div class="wrap mobile-wrap">
+        <div class="panel-section">
+            <div class="intro-button show">Play now!</div>
+            <div class="start">
+                <div class="draw-card">Draw card!</div>
+                <div class="instructions">Draw a card to see what color you land on and answer correctly to stay
+                    on
+                    current
+                    space. If you answer incorrectly, you will go back to previous space of same color or the
+                    beginning.
+                    Good luck!
+                </div>
+                <div class="card-color"></div>
+            </div>
+            <div class="question-panel">
+                <div class="question-icon"><img src="" /></div>
+                <div class="question-text"></div>
+                <div class="question-answers"><span class="answer">True</span><span class="answer">False</span></div>
+            </div>
+            <div class="results-panel">
+                <div class="results-text"></div>
+                <div class="results-share">Share!</div>
+            </div>
+        </div>
 
-<div class="inner-wrap buttom-buttons">
-
-    <div class="share-button button" ng-click="showShare()">Share now</div>
+    </div>
 </div>
 
 <div class="share-page">
-    <div class="share-close-button" ng-click="hideShare()"><img src="img/close.svg" alt="close" class="close-icon">
+    <div class="share-close-button"><img src="img/close.svg" alt="close" class="close-icon">
     </div>
     <h2 class="share-title">Share</h2>
 
-    <p class="share-copy">{{share.copy}}</p>
+    <p class="share-copy"></p>
 
-    <a href="{{share.tweetUrl}}" onclick="Analytics.click('Twitter Share')" class='social-link' id='twitter-share'>
+    <a href="#" onclick="Analytics.click('Twitter Share')" class='social-link' id='twitter-share'>
         <img src='img/twitter.svg' alt="twitter" class="social-icon"></a>
-    <a href="{{share.fbUrl}}" target="popup"><img src='img/fb.svg' alt="twitter" class="social-icon"></a>
-    <a href="{{share.emailURL}}" onclick="Analytics.click('Email Share')" class="social-link" id="email-share"><img
+    <a href="#" target="popup"><img src='img/fb.svg' alt="twitter" class="social-icon"></a>
+    <a href="#" onclick="Analytics.click('Email Share')" class="social-link" id="email-share"><img
             src="img/email.svg" alt="email" class="social-icon">
     </a>
 
 </div>
 <div class="info-page">
-    <div class="info-close-button" ng-click="hideInfo()"><img src="img/close.svg" alt="close" class="close-icon">
+    <div class="info-close-button"><img src="img/close.svg" alt="close" class="close-icon">
     </div>
 
     <h2 class="info-title share-title">Credits</h2>

@@ -1,5 +1,6 @@
 .wrap.mobile-wrap{
   background: none;
+  left: 23%;
   margin: 0 auto;
   max-width: 800px;
   min-height: 100%;
@@ -208,4 +209,10 @@ a.article-button {
 
 .info-close-button {
   @extend .share-close-button;
+}
+
+html.vert .wrap.mobile-wrap{
+  left: 5%;
+  min-height: calc(100% - 0px);
+  width: 90%;
 }
