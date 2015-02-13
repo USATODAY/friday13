@@ -2,65 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fb7798-e91f-4cb9-b01c-7bdbbf80d562" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_Accordion.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_BenFranklin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_Friday13th-Jason.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_Friggatriskaidekaphobia.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_Hitchcock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_HollywoodSign.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_MargaretThatcher.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_Nudist.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_OlsenTwins.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 1_TupacShakur.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 2_BlackFriday-shopping.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 2_FlashBack-Friday.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 2_Frigg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 2_Mozzarella-Fried-day.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 2_RebeccaBlack-Friday.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TGIF-13 2_TheCure.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_Accordion.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_BenFranklin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_Friday13th-Jason.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_Friggatriskaidekaphobia.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_Hitchcock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_HollywoodSign.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_MargaretThatcher.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_Nudist.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_OlsenTwins.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_TupacShakur.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_BlackFriday-shopping.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_FlashBack-Friday.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_Frigg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_Mozzarella-Fried-day.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_RebeccaBlack-Friday.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_TheCure.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_mobile.scssc" afterPath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_mobile.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_panel.scssc" afterPath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_share.scssc" afterPath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_share.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/fb-share.jpg" afterPath="$PROJECT_DIR$/img/fb-share.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/fb-share.jpg" afterPath="$PROJECT_DIR$/www/img/fb-share.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/TGIF-13 1_HappyHour-07.svg" afterPath="$PROJECT_DIR$/img/TGIF-13 1_HappyHour-07.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_HappyHour-07.svg" afterPath="$PROJECT_DIR$/www/img/TGIF-13 1_HappyHour-07.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/TGIF-13 1_HappyHour-09.svg" afterPath="$PROJECT_DIR$/img/TGIF-13 1_HappyHour-09.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/TGIF-13 1_HappyHour-09.svg" afterPath="$PROJECT_DIR$/www/img/TGIF-13 1_HappyHour-09.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/TGIF-13 2_FreakyFriday-KateAshley.svg" afterPath="$PROJECT_DIR$/img/TGIF-13 2_FreakyFriday-KateAshley.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_FreakyFriday-KateAshley.svg" afterPath="$PROJECT_DIR$/www/img/TGIF-13 2_FreakyFriday-KateAshley.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/TGIF-13 2_Friday-Cube-Tucker.svg" afterPath="$PROJECT_DIR$/img/TGIF-13 2_Friday-Cube-Tucker.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_Friday-Cube-Tucker.svg" afterPath="$PROJECT_DIR$/www/img/TGIF-13 2_Friday-Cube-Tucker.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/TGIF-13 2_Katy Perry.svg" afterPath="$PROJECT_DIR$/img/TGIF-13 2_Katy Perry.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/TGIF-13 2_Katy Perry.svg" afterPath="$PROJECT_DIR$/www/img/TGIF-13 2_Katy Perry.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/_mobile.scss" afterPath="$PROJECT_DIR$/style/scss/_mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/_panel.scss" afterPath="$PROJECT_DIR$/style/scss/_panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/_share.scss" afterPath="$PROJECT_DIR$/style/scss/_share.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.min.js" afterPath="$PROJECT_DIR$/www/js/app.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.min.map" afterPath="$PROJECT_DIR$/www/js/app.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iframe.html" afterPath="$PROJECT_DIR$/iframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/iframe.html" afterPath="$PROJECT_DIR$/www/iframe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/style/project.css.map" afterPath="$PROJECT_DIR$/www/style/project.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/project.css" afterPath="$PROJECT_DIR$/style/scss/project.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/style/project.css" afterPath="$PROJECT_DIR$/www/style/project.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tgif-13-bg.svg" afterPath="$PROJECT_DIR$/img/tgif-13-bg.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/tgif-13-bg.svg" afterPath="$PROJECT_DIR$/www/img/tgif-13-bg.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="friday13.iws" />
@@ -87,7 +41,7 @@
       <file leaf-file-name="_base.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/scss/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="-9.391304" vertical-offset="0" max-vertical-offset="504">
+            <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="-0.0" vertical-offset="432" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -96,7 +50,7 @@
       <file leaf-file-name="_bits.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/scss/_bits.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="59" selection-end="64" vertical-scroll-proportion="-1.826087" vertical-offset="0" max-vertical-offset="780">
+            <state line="7" column="5" selection-start="59" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -114,34 +68,34 @@
       <file leaf-file-name="_mobile.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/scss/_mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="29" selection-start="3434" selection-end="3452" vertical-scroll-proportion="-14.652778" vertical-offset="1465" max-vertical-offset="2676">
+            <state line="210" column="29" selection-start="3434" selection-end="3452" vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="2676">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_panel.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_panel.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/scss/_panel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="322" column="22" selection-start="5067" selection-end="5067" vertical-scroll-proportion="-16.73913" vertical-offset="3094" max-vertical-offset="4536">
+            <state line="210" column="14" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.23362975" vertical-offset="2231" max-vertical-offset="4848">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="iframe.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iframe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="24" selection-start="3742" selection-end="3752" vertical-scroll-proportion="-32.0" vertical-offset="312" max-vertical-offset="1596">
+            <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="-4.571429" vertical-offset="0" max-vertical-offset="192">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="0" selection-start="8804" selection-end="8804" vertical-scroll-proportion="0.2857143" vertical-offset="2184" max-vertical-offset="4116">
+            <state line="27" column="96" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="4116">
               <folding />
             </state>
           </provider>
@@ -150,7 +104,7 @@
       <file leaf-file-name="project.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/scss/project.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="1" selection-start="915" selection-end="915" vertical-scroll-proportion="-7.513889" vertical-offset="227" max-vertical-offset="1008">
+            <state line="64" column="1" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
@@ -168,7 +122,7 @@
       <file leaf-file-name="_share.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/scss/_share.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="54" selection-start="954" selection-end="954" vertical-scroll-proportion="-15.652174" vertical-offset="0" max-vertical-offset="1212">
+            <state line="60" column="54" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1212">
               <folding />
             </state>
           </provider>
@@ -196,10 +150,11 @@
         <option value="$PROJECT_DIR$/style/scss/_base.scss" />
         <option value="$PROJECT_DIR$/style/scss/project.scss" />
         <option value="$PROJECT_DIR$/style/scss/_mobile.scss" />
-        <option value="$PROJECT_DIR$/style/scss/_panel.scss" />
         <option value="$PROJECT_DIR$/style/scss/_share.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/iframe.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/style/scss/_panel.scss" />
       </list>
     </option>
   </component>
@@ -309,8 +264,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -397,9 +352,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,6 +373,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -481,7 +436,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279939" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10700236" sideWeight="0.67200613" order="0" side_tool="false" content_ui="combo" />
@@ -493,6 +447,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279939" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -512,13 +467,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="29" selection-start="2351" selection-end="2360" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="36" selection-start="4510" selection-end="4510" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="4560">
@@ -568,56 +516,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/scss/_bits.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="59" selection-end="64" vertical-scroll-proportion="-1.826087" vertical-offset="0" max-vertical-offset="780">
+        <state line="7" column="5" selection-start="59" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="-9.391304" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/_panel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="22" selection-start="5067" selection-end="5067" vertical-scroll-proportion="-16.73913" vertical-offset="3094" max-vertical-offset="4536">
+        <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/scss/_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="29" selection-start="3434" selection-end="3452" vertical-scroll-proportion="-14.652778" vertical-offset="1465" max-vertical-offset="2676">
+        <state line="210" column="29" selection-start="3434" selection-end="3452" vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="2676">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/scss/_share.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="54" selection-start="954" selection-end="954" vertical-scroll-proportion="-15.652174" vertical-offset="0" max-vertical-offset="1212">
+        <state line="60" column="54" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1212">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/scss/project.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="1" selection-start="915" selection-end="915" vertical-scroll-proportion="-7.513889" vertical-offset="227" max-vertical-offset="1008">
+        <state line="64" column="1" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1008">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="24" selection-start="3742" selection-end="3752" vertical-scroll-proportion="-32.0" vertical-offset="312" max-vertical-offset="1596">
+        <state line="82" column="24" selection-start="3742" selection-end="3752" vertical-scroll-proportion="0.5150555" vertical-offset="334" max-vertical-offset="1596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="-4.571429" vertical-offset="0" max-vertical-offset="192">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="0" selection-start="8804" selection-end="8804" vertical-scroll-proportion="0.2857143" vertical-offset="2184" max-vertical-offset="4116">
+        <state line="27" column="96" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="4116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/scss/_panel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="14" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.23362975" vertical-offset="2231" max-vertical-offset="4848">
           <folding />
         </state>
       </provider>

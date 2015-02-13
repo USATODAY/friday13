@@ -199,12 +199,14 @@ html.touch .data-table td {
 .instructions {
   background: none;
   font-family: "Futura Today", Arial,sans-serif;
+  font-size: 1.2em;
   margin-left: 40%;
   margin-top: 2em;
   width: 55%;
 }
 html.vert .instructions {
-  margin-top: 17em;
+  line-height: 1.1em;
+  margin-top: 14em;
   margin-left: 0%;
   width: 100%;
 }
@@ -253,7 +255,7 @@ html.vert .results-share {
   display: none;
   height: 6em;
   margin-left: 55%;
-  margin-top: 2em;
+  margin-top: 2.7em;
   width: 6em;
 }
 html.vert .card-color {
@@ -314,6 +316,10 @@ html.vert .question-panel {
 .question-text {
   background: none;
   font-family: "Futura Today", Arial,sans-serif;
+  font-size: 1.2em;
+}
+html.vert .question-text {
+  line-height: 1.1em;
 }
 .question-icon {
   background-size: cover !important;
@@ -370,4 +376,24 @@ html.vert .results-panel {
 }
 .results-share {
 
+}
+body.iFrame .question-panel {
+  left: 23%;
+  top: 4em;
+}
+body.iFrame .instructions {
+  margin-left: 23%;
+  margin-top: 4em;
+}
+body.iFrame .intro-button, body.iFrame .draw-card {
+  left: 40%;
+  top: 7.7em;
+}
+body.iFrame .card-color {
+  margin-left: 45%;
+  margin-top: 3.7em;
+}
+body.iFrame .results-panel {
+  left: 23%;
+  top: 4em;
 }

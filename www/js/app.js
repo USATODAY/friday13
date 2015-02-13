@@ -88,10 +88,6 @@ mobile.setUpPanels = function () {
     }
     mobile.boardImageBox.height(numHeight);
     mobile.boardImageBox.width(numWidth);
-    //mobile.mainPanel.height(numHeight);
-    //jQuery.each(mobile.arrPanelSections, function(index){
-    //mobile.arrPanelSections.eq(index).height(numHeight).width(numWidth).css({"left": (numWidth * index).toString() + "px"});
-    // });
 };
 
 mobile.calcPercent = function (num) {
@@ -196,7 +192,10 @@ mobile.animateIcon = function (numNextStep) {
 mobile.renderQuestion = function (numNewSpot) {
     mobile.currentSpot = numNewSpot;
     mobile.questionText.html(mobile.arrQuestions[mobile.currentSpot - 1][0]);
-    mobile.questionIcon.find("img").attr("src", mobile.baseURL + mobile.arrQuestions[mobile.currentSpot - 1][1]);
+
+    //mobile.questionIcon.find("img").attr("src", mobile.baseURL + mobile.arrQuestions[mobile.currentSpot - 1][1]);
+    mobile.questionIcon.html("");
+
     mobile.startPanel.removeClass("show");
     mobile.questionIcon.css({"background": "url(" + mobile.baseURL + mobile.arrColors[mobile.numColor][1] + ")"});
     mobile.questionPanel.addClass("show");
@@ -205,7 +204,7 @@ mobile.renderQuestion = function (numNewSpot) {
 mobile.renderAnswer = function (numAnswer) {
     mobile.numNewSpot = mobile.currentSpot;
     mobile.questionPanel.removeClass("show");
-    if (numAnswer === mobile.arrQuestions[mobile.currentSpot][2]) {
+    if (numAnswer === mobile.arrQuestions[mobile.currentSpot - 1][2]) {
         if (mobile.numNewSpot < 13) {
             mobile.resultsText.html("Correct! You can stay where you are and draw the next card.");
             mobile.resultsPanel.addClass("show");
@@ -220,10 +219,10 @@ mobile.renderAnswer = function (numAnswer) {
         var arrReverseColorSpaces = Array.prototype.slice.call(mobile.arrColorSpaces[mobile.numColor]);
         mobile.resultsText.html("Wrong! You have to go back to a previous space, but don't fret, you can draw another card and try again.");
         mobile.resultsPanel.addClass("show");
-        console.log(arrReverseColorSpaces);
+        arrReverseColorSpaces.reverse();
         jQuery.each(arrReverseColorSpaces, function (index) {
-            if (mobile.currentSpot > mobile.arrColorSpaces[mobile.numColor][index]) {
-                mobile.numNewSpot = mobile.arrColorSpaces[mobile.numColor][index];
+            if (mobile.currentSpot > arrReverseColorSpaces[index]) {
+                mobile.numNewSpot = arrReverseColorSpaces[index];
                 return false;
             }
         });
@@ -261,7 +260,24 @@ mobile.setShare = function () {
     mobile.arrShareLinks.eq(1).attr("href", fbUrl);
     mobile.arrShareLinks.eq(2).attr("href", emailURL);
     mobile.shareCopy.html(copy);
+};
 
+mobile.shuffleAnswers = function (array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
 };
 
 $(document).ready(function () {
@@ -303,7 +319,7 @@ $(document).ready(function () {
     mobile.arrShareLinks = mobile.sharePanel.find("a");
     mobile.shareCopy = mobile.sharePanel.find(".share-copy");
     mobile.numTurns = 0;
-    mobile.baseURL = "img/";
+    mobile.baseURL = "http://www.gannett-cdn.com/experiments/usatoday/2015/02/friday13/img/";
 
     mobile.setUpPanels();
 
@@ -315,195 +331,7 @@ $(document).ready(function () {
         mobile.setUpPanels();
     };
 
+    mobile.shuffleAnswers(mobile.arrQuestions);
+
     mobile.addEventListeners();
 });
-
-/*
- (function () {
-
- var searchApp = angular.module('dataSearch', [])
- .config([
- '$compileProvider',
- function ($compileProvider) {
- $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|javascript):/);
- }
- ]);
- searchApp.controller('SearchController', function ($http, $scope, $filter) {
-
- $scope.companies = [];
- $scope.stateOptions = [
- {state: "Select a State to begin"},
- {state: "AR"},
- {state: "AZ"},
- {state: "CA"},
- {state: "FL"},
- {state: "GA"},
- {state: "ID"},
- {state: "IL"},
- {state: "MA"},
- {state: "MI"},
- {state: "MN"},
- {state: "NC"},
- {state: "NY"},
- {state: "RI"},
- {state: "VA"},
- {state: "VT"},
- {state: "WA"},
- {state: "WI"},
- {state: "WV"}
- ];
- $scope.stateItem = {
- states: $scope.stateOptions[0]
- };
-
- this.loadStateData = function () {
- mobile.panelWrap.eq(0).hide();
- mobile.mainHead.addClass("top");
- mobile.searchTable.addClass("search");
- mobile.background.addClass("dark");
- if (mobile.stateMenu.eq(0).children("option:selected").index() > 0) {
- mobile.chatterBox.html(mobile.arrStateText[mobile.stateMenu.eq(0).children("option:selected").index() - 1]);
- $http.get("js/data/" + mobile.stateMenu.eq(0).children("option:selected").text().toLowerCase() + ".json").then(function (data) {
- mobile.data = data.data;
- $scope.data = data.data;
- });
- } else {
- mobile.chatterBox.html("Use the search section above to find your school.");
- }
- mobile.chatterBox.show();
- };
-
- this.checkMenu = function () {
- if (mobile.stateMenu.val() != "0") {
- return true;
- } else {
- return false;
- }
- };
-
- this.blur = function () {
- $scope.filterTerm = "";
- };
-
- this.setFocus = function (focusItem) {
- Analytics.click("School selected");
- mobile.currentFocus = focusItem;
- mobile.setPanelInfo(focusItem);
- $scope.isFormOpen = false;
-
-
- //set the filter term to be the full company name of the company selected
- // $scope.filterTerm = company.name;
- $scope.filterTerm = "";
-
-
- jQuery(window).on("resetSearch", function () {
- $scope.filterTerm = "";
-
- mobile.searchCont.find("input").val("");
- });
- $scope.setShare(focusItem);
-
- };
-
-
- this.clear = function () {
- $scope.filterTerm = "";
- mobile.setPanelInfo(null);
- };
-
- this.mobileSearch = function () {
- Analytics.click("Typed in search box");
- mobile.panelWrap.eq(0).hide();
-
- $scope.filteredArray = $filter("filter")($scope.data, $scope.filterTerm, false);
- if ($scope.filteredArray.length > 400) {
- $scope.filteredArray.length = 0;
- }
- if ($scope.filteredArray.length === 0) {
- mobile.chatterBox.show();
- } else {
- mobile.chatterBox.hide();
- }
-
- if ($scope.filterTerm !== "") {
- mobile.currentFocus = null;
- $scope.isFormOpen = true;
- }
- else {
- $scope.isFormOpen = false;
- mobile.chatterBox.show();
- }
- };
-
- $scope.showShare = function () {
- $(".panel-inner-wrap").addClass("blur");
- $(".share-page").addClass("show");
- };
-
- $scope.hideShare = function () {
- $(".panel-inner-wrap").removeClass("blur");
- $(".share-page").removeClass("show");
- };
-
- $scope.showInfo = function () {
- $(".panel-inner-wrap").addClass("blur");
- $(".info-page").addClass("show");
- };
-
- $scope.hideInfo = function () {
- $(".panel-inner-wrap").removeClass("blur");
- $(".info-page").removeClass("show");
- };
-
- $scope.setShare = function (schoolObj) {
- var copy,
- encodedURL,
- encodedURL2,
- encodedStr,
- encodedStrTE;
-
- var encodedBaseURL = encodeURIComponent("http://www.gannett-cdn.com/experiments/usatoday/2015/02/measles/");
-
- if (schoolObj) {
- copy = "My school, " + schoolObj.Name + " in " + schoolObj.City + ", " + schoolObj.State + ",  has a complete vaccination rate of " + (Math.round(schoolObj.Complete * 10000) / 100).toString() + ". Look up your school.";
- encodedURL = encodeURIComponent("http://www.gannett-cdn.com/experiments/usatoday/2015/02/measles/index.html");
- encodedURL2 = encodeURI("http://www.gannett-cdn.com/experiments/usatoday/2015/02/measles/index.html");
- encodedStr = encodeURIComponent(copy);
- encodedStr = encodeURI(encodedStr);
- encodedStrTE = encodeURIComponent(copy);
- }
-
- else {
- copy = "How vaccinated are your local schools? Look up their rates @USATODAY";
- encodedURL = encodeURIComponent("http://www.gannett-cdn.com/experiments/usatoday/2015/02/measles/index.html");
- encodedURL2 = encodeURI("http://www.gannett-cdn.com/experiments/usatoday/2015/02/measles/index.html");
- encodedStr = encodeURIComponent(copy);
- encodedStr = encodeURI(encodedStr);
- encodedStrTE = encodeURIComponent(copy);
- }
-
- var encodedTitle = encodeURIComponent("School Vaccination Rate");
- var fbRedirectUrl = encodeURIComponent("http://www.gannett-cdn.com/usatoday/_common/_dialogs/fb-share-done.html");
-
- var tweetUrl = "https://twitter.com/intent/tweet?url=" + encodedURL + "&text=" + encodedStrTE + "";
-
- var fbUrl = "javascript: var sTop=window.screen.height/2-(218);var sLeft=window.screen.width/2-(313);window.open('https://www.facebook.com/dialog/feed?display=popup&app_id=215046668549694&link=" + encodedURL2 + "&picture=http://www.gannett-cdn.com/experiments/usatoday/2015/02/measles/img/fb-share.jpg&name=" + encodedTitle + "&description=" + encodedStr + "&redirect_uri=http://www.gannett-cdn.com/experiments/usatoday/_common/_dialogs/fb-share-done.html','sharer','toolbar=0,status=0,width=580,height=400,top='+sTop+',left='+sLeft);Analytics.click('Facebook share');void(0);";
-
-
- var emailURL = "mailto:?body=" + encodedStrTE + "%0d%0d" + encodedURL + "&subject=" + encodedTitle;
-
- $scope.share = {
- copy: copy,
- tweetUrl: tweetUrl,
- fbUrl: fbUrl,
- emailURL: emailURL
- };
- };
- $scope.setShare(null);
- });
-
-
- })();
- */
-
