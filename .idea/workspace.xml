@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fb7798-e91f-4cb9-b01c-7bdbbf80d562" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_panel.scssc" afterPath="$PROJECT_DIR$/.sass-cache/46f6367dc8aa39abd8b4a6b7978707c5d83bde3f/_panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/_panel.scss" afterPath="$PROJECT_DIR$/style/scss/_panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.min.js" afterPath="$PROJECT_DIR$/www/js/app.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.min.map" afterPath="$PROJECT_DIR$/www/js/app.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iframe.html" afterPath="$PROJECT_DIR$/iframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/iframe.html" afterPath="$PROJECT_DIR$/www/iframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/style/project.css.map" afterPath="$PROJECT_DIR$/www/style/project.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/scss/project.css" afterPath="$PROJECT_DIR$/style/scss/project.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/style/project.css" afterPath="$PROJECT_DIR$/www/style/project.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tgif-13-bg.svg" afterPath="$PROJECT_DIR$/img/tgif-13-bg.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/tgif-13-bg.svg" afterPath="$PROJECT_DIR$/www/img/tgif-13-bg.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,7 +32,7 @@
       <file leaf-file-name="_base.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/scss/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="-0.0" vertical-offset="432" max-vertical-offset="504">
+            <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -74,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_panel.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_panel.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/scss/_panel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="14" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.23362975" vertical-offset="2231" max-vertical-offset="4848">
+            <state line="210" column="14" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="4848">
               <folding />
             </state>
           </provider>
@@ -86,7 +77,16 @@
       <file leaf-file-name="iframe.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iframe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="-4.571429" vertical-offset="0" max-vertical-offset="192">
+            <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="192">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="38" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.52224374" vertical-offset="0" max-vertical-offset="1596">
               <folding />
             </state>
           </provider>
@@ -95,16 +95,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="96" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="4116">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/scss/project.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="1" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1008">
+            <state line="255" column="306" selection-start="11419" selection-end="11500" vertical-scroll-proportion="0.0" vertical-offset="2645" max-vertical-offset="4116">
               <folding />
             </state>
           </provider>
@@ -151,18 +142,18 @@
         <option value="$PROJECT_DIR$/style/scss/project.scss" />
         <option value="$PROJECT_DIR$/style/scss/_mobile.scss" />
         <option value="$PROJECT_DIR$/style/scss/_share.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/iframe.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/style/scss/_panel.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1441" />
+    <option name="x" value="1440" />
     <option name="y" value="22" />
-    <option name="width" value="2542" />
-    <option name="height" value="1406" />
+    <option name="width" value="1920" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -264,8 +255,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -352,6 +343,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -373,9 +367,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -430,7 +421,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1441" y="22" width="2542" height="1406" extended-state="0" />
+    <frame x="1440" y="22" width="1920" height="1178" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,7 +429,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10700236" sideWeight="0.67200613" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106770836" sideWeight="0.67200613" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -469,9 +460,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="36" selection-start="4510" selection-end="4510" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="4560">
-          <folding />
-        </state>
+        <state line="145" column="36" selection-start="4510" selection-end="4510" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="4560" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/scss/project.scss">
@@ -500,16 +489,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="711" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/_iframe.scss">
+    <entry file="file://$PROJECT_DIR$/style/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="711">
+        <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
@@ -521,9 +503,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/_base.scss">
+    <entry file="file://$PROJECT_DIR$/style/scss/_iframe.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="504">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
           <folding />
         </state>
       </provider>
@@ -535,9 +517,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/_share.scss">
+    <entry file="file://$PROJECT_DIR$/style/scss/_panel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="54" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1212">
+        <state line="210" column="14" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0" vertical-offset="2231" max-vertical-offset="4848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="192">
           <folding />
         </state>
       </provider>
@@ -549,30 +538,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style/scss/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="24" selection-start="3742" selection-end="3752" vertical-scroll-proportion="0.5150555" vertical-offset="334" max-vertical-offset="1596">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="711">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iframe.html">
+    <entry file="file://$PROJECT_DIR$/style/scss/_share.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="-4.571429" vertical-offset="0" max-vertical-offset="192">
+        <state line="60" column="54" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1212">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="96" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="4116">
+        <state line="255" column="306" selection-start="11419" selection-end="11500" vertical-scroll-proportion="0.0" vertical-offset="2645" max-vertical-offset="4116">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/_panel.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="14" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.23362975" vertical-offset="2231" max-vertical-offset="4848">
+        <state line="45" column="38" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.52224374" vertical-offset="0" max-vertical-offset="1596">
           <folding />
         </state>
       </provider>
